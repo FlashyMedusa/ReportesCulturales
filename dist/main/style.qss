@@ -1,0 +1,12 @@
+QWidget { background-color: #121212; color: #FFFFFF; font-family: Segoe UI; font-size: 10pt; }
+QComboBox, QLineEdit, QTextEdit, QSpinBox, QDateTimeEdit {
+    background-color: #1e1e1e; color: white; border: 1px solid #bb86fc;
+}
+QPushButton {
+    background-color: #2e2e2e; border: 1px solid #bb86fc; padding: 5px;
+}
+QPushButton:hover {
+    background-color: #bb86fc; color: black;
+}
+QTableWidget { background-color: #1e1e1e; gridline-color: #444; }
+QHeaderView::section { background-color: #292929; color: #bb86fc; }
